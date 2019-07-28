@@ -168,7 +168,7 @@ class DataProcessor(object):
     """Gets a collection of `InputExample`s for the train set."""
     raise NotImplementedError()
 
-  def get_dev_examples(self, data_dir):
+  def get_dev_examples(self, dataspm_basename_dir):
     """Gets a collection of `InputExample`s for the dev set."""
     raise NotImplementedError()
 
